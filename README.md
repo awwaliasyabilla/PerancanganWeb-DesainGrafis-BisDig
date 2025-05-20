@@ -48,3 +48,36 @@ Lihat file `index.html` di repositori ini. Halaman menampilkan profil fotografer
   <h1>Raka Aditama</h1>
   <p>Fotografer Profesional</p>
 </header>
+
+Soal No.3
+# PerancanganWeb-DesainGrafis-BisDig
+
+## 🧩 Studi Kasus
+Perusahaan ingin membuat landing page promosi menggunakan framework. Sebelum implementasi, diminta prototipe dalam Figma.
+
+## ✅ Manfaat Prototipe Desain (Figma)
+- Visualisasi awal sebelum implementasi
+- Revisi desain cepat dan hemat biaya
+- Kolaborasi lintas tim lebih efektif
+- Komponen dan gaya dapat dijadikan panduan developer
+- Meningkatkan efisiensi proses pengembangan
+
+## 💻 Komponen PromoCard
+
+### Fitur:
+- Gambar promosi
+- Judul promosi
+- Tombol CTA “Daftar Sekarang”
+
+### Contoh HTML:
+Lihat file `index.html` dan `style.css` dalam repositori ini.
+
+## 📂 Struktur Folder
+- `index.html` – Struktur HTML komponen PromoCard
+- `style.css` – Styling komponen
+- `promo.jpg` – Gambar dummy untuk promo
+- `README.md` – Dokumentasi proyek
+
+## 📦 Catatan
+Untuk demo lebih lanjut, komponen ini bisa dikembangkan lebih lanjut menggunakan framework seperti React atau Tailwind CSS.
+
