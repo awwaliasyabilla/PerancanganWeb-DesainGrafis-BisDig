@@ -81,3 +81,36 @@ Lihat file `index.html` dan `style.css` dalam repositori ini.
 ## 📦 Catatan
 Untuk demo lebih lanjut, komponen ini bisa dikembangkan lebih lanjut menggunakan framework seperti React atau Tailwind CSS.
 
+Soal No.4
+# PerancanganWeb-DesainGrafis-BisDig
+
+## 🧩 Studi Kasus
+Blog ingin menambahkan tombol "Tampilkan Komentar" agar komentar tidak langsung terlihat tetapi bisa muncul saat diklik.
+
+## ✅ Solusi dengan JavaScript
+
+### Kenapa JavaScript?
+JavaScript memungkinkan kita menambah **interaktivitas** tanpa memuat ulang halaman. Dalam kasus ini, kita dapat:
+- Menyembunyikan komentar dengan CSS
+- Mengubah tampilan komentar secara **dinamis** saat tombol ditekan
+
+## 💻 Contoh Kode
+Lihat file `index.html` di repositori ini.
+
+```html
+<button onclick="toggleComments()">Tampilkan Komentar</button>
+
+<div id="comments" style="display: none;">
+  <ul>
+    <li>Contoh komentar pengguna</li>
+  </ul>
+</div>
+
+<script>
+  function toggleComments() {
+    const comments = document.getElementById("comments");
+    // Menampilkan atau menyembunyikan komentar
+  }
+</script>
+
+
